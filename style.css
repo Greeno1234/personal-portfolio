@@ -1,0 +1,59 @@
+  :root {
+    --bg:        #161a1d;
+    --bg2:       #1c2125;
+    --bg3:       #232a2f;
+    --surface:   #252d32;
+    --border:    #2e3840;
+    --green:     #4ade80;
+    --green-dim: #22c55e;
+    --green-glow:#4ade8022;
+    --green-pale:#d1fae5;
+    --text:      #e2e8f0;
+    --muted:     #7a8fa0;
+    --mono:      'DM Mono', monospace;
+    --sans:      'Syne', sans-serif;
+  }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--mono);
+  }
+
+  .hero {
+    padding-top:20px;
+    background-color: var(--bg2);
+    height:200px;
+    text-align: center;
+  }
+
+
+  .skill-item {
+    display:inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    background-color: var(--border);
+  }
+
+
+  .project-item {
+    display:inline-block;
+    border: #22c55e;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    background-color: var(--border);
+    max-width: 300px;
+  }
+
+  .project-item h3 {
+    color: var(--green-pale);
+    text-align: center;
+  }
+
+
+
+
