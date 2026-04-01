@@ -20,6 +20,13 @@
     font-family: var(--mono);
   }
 
+
+  nav {
+    background-color: var(--bg2);
+    display:inline-block;
+  }
+
+
   .hero {
     padding-top:20px;
     background-color: var(--bg2);
@@ -46,7 +53,8 @@
     margin-bottom: 10px;
     margin-left: 20px;
     background-color: var(--border);
-    max-width: 300px;
+    width: 250px;
+    max-height: 500px;
   }
 
   .project-item h3 {
@@ -55,5 +63,7 @@
   }
 
 
-
+footer {
+  background-color: var(--bg3);
+}
 
