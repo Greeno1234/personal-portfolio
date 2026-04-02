@@ -24,6 +24,13 @@
   nav {
     background-color: var(--bg2);
     display:inline-block;
+    
+  }
+
+  nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
   }
 
 
@@ -56,10 +63,12 @@
     width: 250px;
     max-height: 500px;
   }
-
   .project-item h3 {
     color: var(--green-pale);
     text-align: center;
+  }
+  .project-description {
+    font-size: 15px;
   }
 
 
