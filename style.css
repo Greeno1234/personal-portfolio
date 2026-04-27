@@ -43,7 +43,7 @@
 
   .nav-logo {
     display: inline;
-    font-size: 32px;
+    font-size: 34px;
     font-family: "Bitcount Grid Double", system-ui;
     font-optical-sizing: auto;
     font-weight: 300;
@@ -56,20 +56,23 @@
   }
 
   nav {
-    display:inline-block;
     float: right;
   }
   nav a{
+    display:inline-block;
     color: var(--green);
     background-color: var(--bg2);
-    font-size: 25px;
+    font-size: 20px;
     text-decoration: none;
-    margin: 3px;
+    margin-top: 0px;
+    margin-right: 2px;
+    margin-left: 2px;
     padding: 10px;
   }
 
   nav a:hover{
     background-color: var(--green-pale);
+    color: var(--bg);
   }
 
   .hero {
@@ -174,7 +177,7 @@
 
 
   .linear-gradient {
-    margin-top:-50px;
+    margin-top:-20px;
   background: linear-gradient(to right, rgb(39, 39, 39), rgb(90, 233, 133));
-  height: 20vh;
+  height: 10vh;
   }
