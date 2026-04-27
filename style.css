@@ -140,11 +140,20 @@
 
 
 
-
+    #projects {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
 
 
   .project-item {
-    display:inline-block;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
     border: #22c55e;
     padding-left: 10px;
     padding-right: 10px;
@@ -152,27 +161,28 @@
     margin-left: 20px;
     background-color: var(--border);
     width: 250px;
+    min-height: 250px;
     max-height: 500px;
     border-radius: 10px;
   }
   .project-item h3 {
     color: var(--green-pale);
     text-align: center;
+    margin-top: 30px;
   }
   .project-description {
     font-size: 15px;
   }
 
-
-
+  .project-item a {
+    margin-bottom: 10px;
+  }
 
 
 
   footer {
     background-color: var(--bg3);
   }
-
-
 
 
 
